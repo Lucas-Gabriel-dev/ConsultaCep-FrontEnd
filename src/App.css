@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    width: 100vw;
+
+    background-color: #121214;
+    color: white;
+}
+
+::-webkit-scrollbar {
+    width: 8px;       
+}
+  
+::-webkit-scrollbar-track {
+    background: #808080;
+    border-radius: 6px;         
+}
+  
+::-webkit-scrollbar-thumb {
+    background-color: #d5dbe4;    
+    border-radius: 6px;       
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: #b3b8c0;   
+}
+
+input{
+    color: white;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}
+
+.ButtonPrincipal{
+    font-family: 'Roboto', sans-serif;
+    font-size: clamp(1px, 1.2rem, 2vw);
+    font-weight: bold;
+    color: #1E1E1E;
+
+    background-color: #F7DD43;
+    
+    padding: 0.5%;
+    
+    border: 1px solid;
+    border-radius: 6px;
+
+    cursor: pointer;
+
+    transition: .2s;
+}
+
+.ButtonPrincipal:hover{
+    color: white;
+    background: #121214;
+    border: 1px solid #F7DD43; 
+}
+
+.FirstCollumn p,
+.SecondCollumn p{
+    padding-bottom: 3%
+}
+
+.FirstCollumn span,
+.SecondCollumn span{
+    font-weight: 400;
+}
